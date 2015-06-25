@@ -215,7 +215,7 @@
 		
 		private function onProgressLoader(e:LoaderEvent):void{
 			if (preloader.txtPorcentaje) {
-				trace(int(e.target.progress * 100) + '%');
+				//trace(int(e.target.progress * 100) + '%');
 				preloader.txtPorcentaje.text = int(e.target.progress * 100) + '%';
 				//preloader.barra.barra_carga.scaleX = e.target.progress;
 			}
